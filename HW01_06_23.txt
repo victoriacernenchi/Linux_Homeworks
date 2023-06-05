@@ -1,0 +1,19 @@
+   0 mkdir -p /home/user/start/
+   1 >> /home/user/start/1.txt
+   2 echo "Start"
+   3 echo "Start" >> /home/user/start/1.txt
+   4 date
+   5 date >> /home/use/start/1.txt
+   6 date >> /home/user/start/1.txt
+   7 mkdir -p /opt/task/
+   8 cp /home/user/start/1.txt/opt/task/
+   9 cp /home/user/start/1.txt /opt/task/
+  10 cp /home/user/start/1.txt /opt/task/start.txt
+  11 cat /opt/task/start.txt
+  12 cd ..
+  13 ls -la
+  14 ls -la | tail -4
+  15 ls -la | tail -4 >> /opt/task/start.txt
+  16 cat /opt/task/start.txt
+  17 history
+  18 history > /tmp/HW01_06_23.txt
