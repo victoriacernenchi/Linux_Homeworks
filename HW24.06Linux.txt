@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+# date
+echo "it works!"
+mkdir -p /opt/090523_morning/Victoria/test
